@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Inventory Status</string>
+    
+    <!-- Strings for MainActivity when it is empty -->
+    <string name="main_inventory_empty_headline">Your inventory is empty</string>
+    <string name="main_inventory_empty_desc">Click the button below to add an item</string>
+    
+    <!-- Strings for the EditorActivity views -->
+    <string name="editor_product_name">Product</string>
+    <string name="editor_product_name_hint">Product name</string>
+    <string name="editor_product_sku">SKU</string>
+    <string name="editor_product_sku_hint">Enter product SKU</string>
+    <string name="editor_product_price">Price</string>
+    <string name="editor_product_price_hint">Enter price</string>
+    <string name="editor_product_qty">Stock</string>
+    <string name="editor_product_qty_hint">Quantity</string>
+    <string name="editor_product_img">Add image</string>
+    <string name="editor_product_sup">Supplier</string>
+    <string name="editor_product_sup_hint">Enter supplier name</string>
+    <string name="editor_product_sup_email">Supplier email</string>
+    <string name="editor_product_sup_email_hint">Enter supplier contact email</string>
+
+
+    <!-- Strings for the button text -->
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="more">Click here to order more</string>
+
+    <string name="list_item_stock">In stock:</string>
+
+    <!-- Text to show in log when entries in the database has been deleted -->
+    <string name="log_entries_deleted">entries deleted from records database</string>
+
+    <!-- Dialog text to confirm deleting the current product -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <string name="delete_dialog_all">Delete all products?</string>
+
+    <!-- Delete text -->
+    <string name="delete">Delete</string>
+
+    <!-- Cancel text -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overflow menu option that inserts fake record data into the app -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all record data in the app -->
+    <string name="action_delete_all_entries">Delete All Records</string>
+
+    <!-- Label for editor menu option to save record and leave editor -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current record -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Text for log if update of record fails -->
+    <string name="editor_update_product_failed">Error updating product</string>
+
+    <!-- Text for toast if all items are sold -->
+    <string name="sold_out">Sold out</string>
+
+    <!-- Field required text -->
+    <string name="field_required">This Field cannot be empty</string>
+
+    <!-- The title for the editor activity if we are creating a new product -->
+    <string name="editor_activity_title_new_product">Add new product</string>
+
+    <!-- The title for the editor activity if we are editing an existing product -->
+    <string name="editor_activity_title_edit_product">Edit product</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted -->
+    <string name="editor_insert_successful">Product saved</string>
+
+    <!-- Toast message in editor when current product was successfully updated -->
+    <string name="editor_update_successful">Product updated</string>
+    
+    <!-- Toast message to display if user tried to set a negative stock quantity -->
+    <string name="negative_stock">You cannot set the stock to a negative number</string>
+
+    <!-- Message to show if user tries to leave editor activity without saving changes -->
+    <string name="unsaved_changes_dialog_msg">Are you sure you want to discard your changes?</string>
+
+    <!-- Either discard changes or keep editing -->
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+
+    <!-- Messages to the user when a product is deleted -->
+    <string name="editor_delete_product_failed">Error deleting product</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+
+</resources>
